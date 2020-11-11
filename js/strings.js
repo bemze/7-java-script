@@ -8,3 +8,5 @@ console.log(neiginys);
 const fraze = 'Jis pasake: "Labas"'
 console.log(fraze);
 
+// kabutes ignoravimas \" arba \'
+
