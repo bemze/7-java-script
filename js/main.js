@@ -19,9 +19,9 @@ console.log ("1984-04-05");
 // Kintamuju tipai (pagal reiksmes):
 //     skaiciai (number)- 2020, 3,14, -7
 //     tekstai (string) - "labas", "ka tu?", ":)"
-// logines (Boolean) - true, false
-// sarasai (array) - []
-// objektai (object) - {}
+//      logines (Boolean) - true, false
+//      sarasai (array) - []
+//      objektai (object) - {}
 
 
 
