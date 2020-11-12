@@ -59,7 +59,22 @@ const metai = 2020;
 const sakinys2 = heroName + " " + heroLastname + " " + "(" +  ( metai - birth) + ")" +".";
 console.log(sakinys2);
 
+let pinigine = 7;
+const sausis = 100;
+const vasaris = 200;
+const kovas = 70;
 
+// 107
+// 307
+// 377
+pinigine = pinigine + sausis;
+console.log(pinigine);
+
+pinigine = pinigine + vasaris;
+console.log(pinigine);
+
+pinigine = pinigine + kovas;
+console.log(pinigine);
 
 
 
