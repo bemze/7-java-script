@@ -1,60 +1,78 @@
+/****************************
+ * KINTAMIEJI
+****************************/
 
-// NAMU DARBAI 2020-11-11
+const age = 99;
+console.log(age);
 
-// Kintamųjų inicijavimas
+const year = 2020;
+console.log(year);
 
-// 1 uzduotis 
-// Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
+const luckyNumber = 13;
+console.log(luckyNumber);
 
+const name = 'Johny';
+console.log(name);
 
-const vienas = 1
-console.log(vienas);
+const city = 'Abu Dabis';
+console.log(city);
 
-const du = 15
-console.log(du);
+const airplane = 'Boeing 747';
+console.log(airplane);
 
-const trys = 59
-console.log(trys);
+const marks = [10, 7, 4, 8, 6];
+console.log(marks);
 
-// 2 uzduotis
-// Sukurti 3 kintamuosius su teksto tipo reikšmėmis
+const lottery = [13, 7, 24, 2];
+console.log(lottery);
 
+const cities = ['Big Apple (NY)', 'Sydney', 'Lisabona', 'Troskunai', 'Los Angel (LA)'];
+console.log(cities);
 
-const as ="Mantas"
-console.log(as);
+const names = ['Chuck', 'Bruce', 'Wonder Woman', 'Algimantas', 'Walter', 'Xena'];
+console.log(names);
 
-const tu ="Tomas"
-console.log(tu);
+/****************************
+ * VEIKSMAI
+****************************/
 
-const mes = "visi zmones"
-console.log(mes);
+const sum = age + year + luckyNumber;
+console.log(sum);
 
-// 3 uzduotis
-// Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių tipo reikšmėmis
+// const zodziai = name + ' ' + city + ' ' + airplane;
+const zodziai = `${name} ${city} ${airplane}`;
+console.log(zodziai);
 
-const taskai = [15, 20, 4, 9, 19]
-console.log (taskai)
+// marks, lottery
+// logika: 1 - 2 + 3 - 4 + 5
 
-const nuostoliai = [-150, -20, -400, 0, -55]
-console.log (nuostoliai)
+// 10 - 7 + 4 - 8 + 6 = 5
+// const marksMath = marks[0] - marks[1] + marks[2] - marks[3] + marks[4];
+let marksMath = 0;
+marksMath = marksMath + marks[0];
+marksMath = marksMath - marks[1];
+marksMath = marksMath + marks[2];
+marksMath = marksMath - marks[3];
+marksMath = marksMath + marks[4];
+console.log(marksMath);
 
-const pelnas = [500, 20, 425, 0, 355]
-console.log (nuostoliai)
+// 13 - 7 + 24 - 2 = 28
+// const lotteryMath = lottery[0] - lottery[1] + lottery[2] - lottery[3];
+let lotteryMath = 0;
+lotteryMath = lotteryMath + lottery[3];
+lotteryMath = lotteryMath - lottery[2];
+lotteryMath = lotteryMath + lottery[1];
+lotteryMath = lotteryMath - lottery[0];
+console.log(lotteryMath);
 
+// cities, names
+let allCities = '';
 
-// 4 uzduotis
-// Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
+allCities = allCities + cities[4];
+allCities = allCities + ', ' + cities[3];
+allCities = allCities + ', ' + cities[2];
+allCities = allCities + ', ' + cities[1];
+allCities = allCities + ', ' + cities[0];
 
-const komandos = ["Juventus", "Rytas", "Zalgiris", "Neptunas", "Lietkabelis"]
-console.log (komandos)
-
-const firmos = ["Nike", "Adidas", "Puma", "Gucci", "No-name"]
-console.log (firmos)
-
-const bankai = ["Swedbank", "SEB", "Luminor", "Danske", "Snoras"]
-console.log (bankai)
-
-// Veiksmai su kintamaisiais
-// 1 Susumuoti visus skaičiaus tipo kintamuosius
-
+console.log(allCities);
 
