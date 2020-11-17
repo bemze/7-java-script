@@ -261,9 +261,9 @@ for (let i = 1; i <= men; i++){
     console.log(`${i}) ${pajamos}`);
 }
 
-const w = "Lietuva";
-let back = "";
-for (i = 0; i < w.length; i++){
-    const letter = i; 
-}
-console.log(text, '->', back);
+// const w = "Lietuva";
+// let back = "";
+// for (i = 0; i < w.length; i++){
+//     const letter = i; 
+// }
+// console.log(text, '->', back);

@@ -59,4 +59,3 @@ console.log(multiply(-2, 5));
 console.log(multiply(-2, -5));
 console.log(multiply(2, Infinity));
 console.log(multiply(Infinity, Infinity)); 
-0 comments on commit bfb093d
