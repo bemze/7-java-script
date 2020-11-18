@@ -1,8 +1,9 @@
-// const skaiciai = [9, 8, 8, 7, 10];
+
 
 function pazymiuSumuma(list) {
-   let rez = 0;
-   for (let i = 0; i < list.lenght; i++){
+    const skaiciai = [9, 8, 8, 7, 10];
+    let rez = 0;
+   for (let i = 0; i < list.length; i++){
        const pazymys = list[i];
         rez = rez + pazymys;   
     }
