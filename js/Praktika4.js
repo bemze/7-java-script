@@ -1,38 +1,54 @@
 
+    function suma(list) {
+        if (typeof list !== 'object') {
+            return 'Netinkama';
+        }
+        //  if (typeof list !== 'number') {
+        //  continue;
+        // }
+        if (list.length === 0) {
+             return 'Tuscias sarasas';
+        }
+        // if (value instanceof Array) {
+        //     alert('value is Array!');
+        //   } else {
+        //     alert('Not an array');
+        //   }
 
-function pazymiuSumuma(list) {
-    const skaiciai = [9, 8, 8, 7, 10];
-    let rez = 0;
-   for (let i = 0; i < list.length; i++){
-       const pazymys = list[i];
-        rez = rez + pazymys;   
+        let result = 0;
+        for (let i = 0; i < list.length; i++) {
+            const sk = list[i];
+            if (typeof sk !== 'number'){
+                return sk + ' Netinkamas formatas';
+                // console.log(sk + ' Netinkamas formatas'); break ;
+            }
+            result += sk;
+        }
+    return result;
+    
     }
-    console.log(rez);
-}
-pazymiuSumuma([9, 8, 8, 7, 10]);
+   const medis = suma([10, 15, 8]);
+   console.log(medis / 3);
 
-// function pazymiuVidurkis(list) {
-//     let suma = 0;
-//     const kiekis = list.length;
+console.log(suma(true));   
+console.log(suma("zodis"));   
+console.log(suma([]));  
 
-//     for (let i = 0; i < kiekis; i++) {
-//         const pazymys = list[i];
-//         suma = suma + pazymys;
-//     }
+console.log(suma([10,'8', 9, 2, 1, 0, 4]));   
+console.log(suma([10, 'a', 9, 2, 1, 0, 4]));   
 
-//     const vidurkis = suma;
+    
+console.log(suma([10, 8, 9, 2, 1, 0, 4]));   
+console.log(suma([10, 8, -9, 2, 1, 0, 4]));   
+console.log(suma([10, true, 9, 2, 1, 0, 4]));   
+console.log(suma([10, 8, 9, 2, 1, 0, 4]));
 
-//     if (kiekis === 0) {
-//         console.log('Neturi pazymiu...');
-//     } else {
-//         console.log(`${vidurkis}.`);
-//     }
-// }
 
-// pazymiuVidurkis([5, 8, 9]);
-// pazymiuVidurkis([5, 8, 9, 7]);
-// pazymiuVidurkis([]);
-// pazymiuVidurkis([10, 10, 10, 10, 10, 10, 10]); 
+
+
+
+
+
 
 
 

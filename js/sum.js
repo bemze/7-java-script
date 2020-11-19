@@ -31,7 +31,7 @@ sumavimas(-8, 17);
 
 function pazymiuVidurkis(list) {
     let suma = 0;
-    const kiekis = list.length;
+    // const kiekis = list.length;
 
     for (let i = 0; i < kiekis; i++) {
         const pazymys = list[i];
